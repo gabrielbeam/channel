@@ -29,6 +29,9 @@ android {
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }
+    dependencies {
+        implementation 'io.channel:plugin-android:12.3.0'
+    }
 
     buildTypes {
         release {
