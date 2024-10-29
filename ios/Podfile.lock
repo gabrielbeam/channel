@@ -1,6 +1,17 @@
 PODS:
   - ChannelIOSDK (12.2.1)
+  - CleverTap-iOS-SDK (5.0.1):
+    - SDWebImage (~> 5.11)
   - Flutter (1.0.0)
+  - Leanplum-iOS-Location (6.1.1):
+    - Leanplum-iOS-SDK (~> 6.0)
+  - Leanplum-iOS-LocationAndBeacons (6.1.1):
+    - Leanplum-iOS-SDK (~> 6.0)
+  - Leanplum-iOS-SDK (6.1.1):
+    - CleverTap-iOS-SDK (~> 5.0.1)
+  - SDWebImage (5.19.7):
+    - SDWebImage/Core (= 5.19.7)
+  - SDWebImage/Core (5.19.7)
   - webview_flutter_wkwebview (0.0.1):
     - Flutter
     - FlutterMacOS
@@ -8,7 +19,18 @@ PODS:
 DEPENDENCIES:
   - ChannelIOSDK (from `https://mobile-static.channel.io/ios/latest/xcframework.podspec`)
   - Flutter (from `Flutter`)
+  - Leanplum-iOS-Location (= 6.1.1)
+  - Leanplum-iOS-LocationAndBeacons (= 6.1.1)
+  - Leanplum-iOS-SDK (= 6.1.1)
   - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - CleverTap-iOS-SDK
+    - Leanplum-iOS-Location
+    - Leanplum-iOS-LocationAndBeacons
+    - Leanplum-iOS-SDK
+    - SDWebImage
 
 EXTERNAL SOURCES:
   ChannelIOSDK:
@@ -20,9 +42,14 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   ChannelIOSDK: b9da8b4b3572bc85605b8a6608fd8725547db1db
+  CleverTap-iOS-SDK: 9f6ac59f7f69fffd105201fe82b9068d0baa4d1b
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  Leanplum-iOS-Location: 3d05e786815185d6ac0792264415a18a27115032
+  Leanplum-iOS-LocationAndBeacons: 5ec5995895e494e96293ff41d6bd5f980ee49449
+  Leanplum-iOS-SDK: 60c98ba5e4d0eefe5987605d45d7b14a851c8fa7
+  SDWebImage: 8a6b7b160b4d710e2a22b6900e25301075c34cb3
   webview_flutter_wkwebview: 0982481e3d9c78fd5c6f62a002fcd24fc791f1e4
 
-PODFILE CHECKSUM: bdf5b3d4eb35e58b30e17e0d69935ec32ab41655
+PODFILE CHECKSUM: 469f1f439a317b36014715ed588c7e52d77449ee
 
 COCOAPODS: 1.15.2
